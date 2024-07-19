@@ -14,7 +14,7 @@ public class GameController: MonoBehaviour
     public void UpdateScore()
     {
         score++;
-        scoreText.text = score.ToString(); 
+        scoreText.text = score.ToString();
     }
   
     // Reload the current scene 
